@@ -7,28 +7,33 @@ This is a deep learning-based web application that predicts the sentiment (posit
 🔗 IMDb Sentiment Analyzer
 
 
+
 📌 Features
-Input any movie review text
+   -> Input any movie review text
 
-Predicts Positive or Negative sentiment
+   -> Predicts Positive or Negative sentiment
 
-Displays model confidence score with a visual progress bar
+   -> Displays model confidence score with a visual progress bar
 
-Intuitive UI with Streamlit
+   -> Intuitive UI with Streamlit
+
+
 
 
 🧠 Model Overview
-Tokenizer: Keras Tokenizer, fitted on IMDb reviews dataset
+-> Tokenizer: Keras Tokenizer, fitted on IMDb reviews dataset
 
-Model: Sequential neural network built with:
+-> Model: Sequential neural network built with:
 
-Embedding layer
+-> Embedding layer
 
-LSTM or GRU (or Dense layers if simplified)
+-> LSTM or GRU (or Dense layers if simplified)
 
-Dense output layer with sigmoid activation
+-> Dense output layer with sigmoid activation
 
-Training Data: IMDb Movie Review Dataset (Binary classified)
+-> Training Data: IMDb Movie Review Dataset (Binary classified)
+
+
 
 
 🧪 Example Usage
@@ -37,14 +42,16 @@ Training Data: IMDb Movie Review Dataset (Binary classified)
 ✅ Prediction: Positive
 📊 Confidence: 95.42%
 
+
+
 📦 Dependencies
-streamlit
+-> streamlit
 
-tensorflow
+-> tensorflow
 
-numpy
+-> numpy
 
-scikit-learn
+-> scikit-learn
 
-pickle (built-in)
+-> pickle (built-in)
 
